@@ -1,0 +1,15 @@
+# Core requirements
+crawl4ai==0.4.247
+python-dotenv==1.0.1
+pydantic==2.10.6
+
+# Async support
+aiohttp>=3.8.0
+asyncio>=3.4.3
+
+# JSON handling
+ujson>=5.7.0
+
+# Optional but recommended
+requests>=2.31.0  # For fallback HTTP requests
+validators>=0.20.0  # For URL validation 
