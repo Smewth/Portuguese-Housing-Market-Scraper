@@ -2,6 +2,34 @@
 
 A web scraping tool designed to extract detailed property listings from Portuguese real estate websites (currently supporting imovirtual.com).
 
+## Current Status
+
+This is the most barebones version it will ever be. I will continually update this in the following weeks for a project that I'm working on. The code right now works but still has some tweaks needed. I'm unsure whether gpt-4o-mini is the right fit for it, among many other things.
+
+**Important Note:** This tool is for instructional use only. All implementations carefully respect GDPR compliance.
+
+## Future Plans
+
+- [ ] Adapt it to cycle between webpages and scrape all houses
+- [ ] Add functionality for users to choose:
+  - Property type
+  - Rent vs ownership
+  - District/location
+  - Other filtering options
+- [ ] Build in GUI
+- [ ] Create an agent that automatically scrapes data at configurable intervals
+- [ ] Perform analysis on the collected data
+- [ ] Implement best deal detection as listings appear
+- [ ] Add duplicate detection and handling for automated runs
+
+
+## Intent
+
+To gather data for my own Data Science projects, with the goals of:
+- Creating reports on Kaggle
+- Improving and updating my Portfolio
+- Analyzing real estate market trends
+
 ## Features
 
 - Extracts comprehensive property information including:
@@ -24,7 +52,7 @@ A web scraping tool designed to extract detailed property listings from Portugue
 1. Clone the repository:
 
 bash
-git clone https://github.com/yourusername/portuguese-real-estate-scraper.git
+git clone https://github.com/Smewth/Portuguese-Housing-Market-Scraper.git
 cd portuguese-real-estate-scraper
 
 2. Install required packages:
